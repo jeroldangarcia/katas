@@ -1,9 +1,11 @@
 package kata.express;
 
-class Express {
+public class Express {
 
-	static Router application() {
-		return new Router();
+	public enum HTTPMethod { GET, POST }
+
+	public static Application express() {
+		return new Application();
 	}
 
 }

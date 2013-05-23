@@ -1,21 +1,36 @@
 package kata.express;
 
 import static org.junit.Assert.*;
+import static kata.express.Express.*;
+import static kata.express.Express.HTTPMethod.*;
+
 import org.junit.*;
 
-class TestRouter {
+public class TestApplication {
 
-	Router app;
+	Application app;
 
 	@Before
 	public void setup() {
-		this.app = new Router();
+		app = express();
 	}
 
-	@Test 
-	public void shoulHandleRoute() {
+	@Test(expected=IllegalArgumentException.class) 
+	public void shouldNotProcessInvalidRequest() {
+		app.process(GET, new RouteRequest("/invalid"));
+	}
+
+	@Test public void shoulProcessRequest() {
 
 		app.get("/", (req, res) -> res.send("hello world"));
+		
+		app.process(GET, new RouteRequest("/"));
+
+		//TODO: response output assertions
+	}
+
+/*
+	@Test public void should() {
 
 		app.get("/login", (req, res) -> {
 
@@ -23,7 +38,7 @@ class TestRouter {
 			viewBean.param("user",    req.param("user"));
 			viewBean.param("message", req.flash("error"));
 
-			res.render('login', viewBean);
+			res.render("login", viewBean);
 		});
 
 		app.post("/login", 
@@ -37,5 +52,5 @@ class TestRouter {
 		);
 
 	}
-
+*/
 }
