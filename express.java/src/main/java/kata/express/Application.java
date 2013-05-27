@@ -6,7 +6,7 @@ import kata.express.Express.HTTPMethod;
 
 public class Application {
 
-	Routes routes = new Routes();
+	public Routes routes = new Routes();
 
 	public Application() {
 	}
@@ -17,6 +17,14 @@ public class Application {
 
 	public void post(String path, RouteHandler handler) {
 		routes.add(POST, path, handler);
+	}
+
+	public void put(String path, RouteHandler handler) {
+		routes.add(PUT, path, handler);
+	}
+
+	public void delete(String path. RouteHandler handler) {
+		routes.add(DELETE, path, handler);
 	}
 
 	public void process(HTTPMethod method, RouteRequest request) {
