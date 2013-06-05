@@ -23,7 +23,7 @@ public class Application {
 		routes.add(PUT, path, handler);
 	}
 
-	public void delete(String path. RouteHandler handler) {
+	public void delete(String path, RouteHandler handler) {
 		routes.add(DELETE, path, handler);
 	}
 

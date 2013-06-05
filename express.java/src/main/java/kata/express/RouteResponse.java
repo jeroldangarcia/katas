@@ -6,7 +6,7 @@ public class RouteResponse {
 		//TODO
 	}
 
-	public void render(String path, ErrorHandler ErrorHandler) {
-		//TODO
-	}
+//   public void render(String path, ErrorHandler ErrorHandler) {
+//		//TODO
+//	}
 }

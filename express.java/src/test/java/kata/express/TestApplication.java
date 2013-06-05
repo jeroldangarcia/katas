@@ -18,7 +18,7 @@ public class TestApplication {
 	@Test 
 	public void shouldAddRoute() {
 		app.get   ("/world", (req, res) -> res.send("get world"));
-		app.post  ("/world", (req, res) -> res.send("post world");
+		app.post  ("/world", (req, res) -> res.send("post world"));
 		app.put   ("/world", (req, res) -> res.send("put world"));
 		app.delete("/world", (req, res) -> res.send("delete world"));
 		assertEquals(4, app.routes.size());
@@ -57,7 +57,6 @@ public class TestApplication {
 			(req) -> authenticated(req),
 			(req, res) -> res.send("hi "+req.param("userID"))
 		);
-
 	}
 */
 }
