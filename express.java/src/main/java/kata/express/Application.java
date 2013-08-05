@@ -2,6 +2,8 @@ package kata.express;
 
 import static kata.express.Express.HTTPMethod.*;
 
+import javax.xml.ws.Response;
+
 import kata.express.Express.HTTPMethod;
 
 public class Application {
@@ -27,8 +29,8 @@ public class Application {
 		routes.add(DELETE, path, handler);
 	}
 
-	public void process(HTTPMethod method, RouteRequest request) {
+	public void process(HTTPMethod method, RouteRequest request, RouteResponse response) {
 		Route route = routes.get(method, request.path);
-		route.process(request);
+		route.process(request, response);
 	}
 }

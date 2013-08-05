@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" skipped="0" errors="0" time="0.637" failures="0" name="team.neo4j.TestTeamGraph">
+  <properties>
+    <property value="Oracle Corporation" name="java.specification.vendor"/>
+    <property value="org.codehaus.plexus.classworlds.launcher.Launcher test -DskipTests=false -Dtest=team.neo4j.TestTeamGraph" name="sun.java.command"/>
+    <property value="/tmp" name="java.io.tmpdir"/>
+    <property value="Oracle Corporation" name="java.vm.vendor"/>
+    <property value="/usr/share/maven/bin/m2.conf" name="classworlds.conf"/>
+    <property value="mixed mode" name="java.vm.info"/>
+    <property value="HotSpot 64-Bit Tiered Compilers" name="sun.management.compiler"/>
+    <property value="sun.print.PSPrinterJob" name="java.awt.printerjob"/>
+    <property value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed" name="java.endorsed.dirs"/>
+    <property value="http://bugreport.sun.com/bugreport/" name="java.vendor.url.bug"/>
+    <property value="Oracle Corporation" name="java.vm.specification.vendor"/>
+    <property value="false" name="skipTests"/>
+    <property value="25.0-b28" name="java.vm.version"/>
+    <property value="sun.io" name="file.encoding.pkg"/>
+    <property value="amd64" name="os.arch"/>
+    <property value="jeroldan" name="user.name"/>
+    <property value="unknown" name="sun.os.patch.level"/>
+    <property value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes" name="sun.boot.class.path"/>
+    <property value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" name="java.library.path"/>
+    <property value="64" name="sun.arch.data.model"/>
+    <property value="/home/jeroldan/dev/github/katas/team.java" name="user.dir"/>
+    <property value="/home/jeroldan" name="user.home"/>
+    <property value="/usr/share/maven/boot/plexus-classworlds-2.x.jar" name="java.class.path"/>
+    <property value="UnicodeLittle" name="sun.io.unicode.encoding"/>
+    <property value="Europe/Madrid" name="user.timezone"/>
+    <property value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64" name="sun.boot.library.path"/>
+    <property value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext" name="java.ext.dirs"/>
+    <property value="SUN_STANDARD" name="sun.java.launcher"/>
+    <property value="Java Virtual Machine Specification" name="java.vm.specification.name"/>
+    <property value="sun.awt.X11.XToolkit" name="awt.toolkit"/>
+    <property value="little" name="sun.cpu.endian"/>
+    <property value="/usr/lib/jvm/java-8-oracle/jre" name="java.home"/>
+    <property value="UTF-8" name="file.encoding"/>
+    <property value="52.0" name="java.class.version"/>
+    <property value="sun.awt.X11GraphicsEnvironment" name="java.awt.graphicsenv"/>
+    <property value="http://java.oracle.com/" name="java.vendor.url"/>
+    <property value="3.8.0-21-generic" name="os.version"/>
+    <property value="file:/dev/./urandom" name="securerandom.source"/>
+    <property value="Java Platform API Specification" name="java.specification.name"/>
+    <property value="gnome" name="sun.desktop"/>
+    <property value="Oracle Corporation" name="java.vendor"/>
+    <property value="
+" name="line.separator"/>
+    <property value=":" name="path.separator"/>
+    <property value="1.8" name="java.specification.version"/>
+    <property value="Java(TM) SE Runtime Environment" name="java.runtime.name"/>
+    <property value="US" name="user.country"/>
+    <property value="/" name="file.separator"/>
+    <property value="Linux" name="os.name"/>
+    <property value="en" name="user.language"/>
+    <property value="1.8" name="java.vm.specification.version"/>
+    <property value="UTF-8" name="sun.jnu.encoding"/>
+    <property value="true" name="guice.disable.misplaced.annotation.check"/>
+    <property value="/usr/share/maven" name="maven.home"/>
+    <property value="1.8.0-ea-b86" name="java.runtime.version"/>
+    <property value="" name="sun.cpu.isalist"/>
+    <property value="1.8.0-ea" name="java.version"/>
+    <property value="team.neo4j.TestTeamGraph" name="test"/>
+    <property value="Java HotSpot(TM) 64-Bit Server VM" name="java.vm.name"/>
+  </properties>
+  <testcase time="0.596" name="testDB" classname="team.neo4j.TestTeamGraph"/>
+</testsuite>

@@ -1,7 +1,5 @@
 package kata.express;
 
-import static kata.express.Express.HTTPMethod.*;
-
 import kata.express.Express.HTTPMethod;
 
 public class Route {
@@ -16,7 +14,7 @@ public class Route {
 		this.handler = handler;
 	}
 
-	public void process(RouteRequest request) {
-		handler.handle(request, new RouteResponse());
+	public void process(RouteRequest request, RouteResponse response) {
+		handler.handle(request, response);
 	}
 }

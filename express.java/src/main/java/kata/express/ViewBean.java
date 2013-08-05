@@ -1,7 +1,7 @@
-package katas.express;
+package kata.express;
 
-import java.util.Map;
 import java.util.HashMap;
+import java.util.Map;
 
 public class ViewBean {
 

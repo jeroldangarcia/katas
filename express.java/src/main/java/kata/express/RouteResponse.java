@@ -1,12 +1,11 @@
 package kata.express;
 
-public class RouteResponse {
+import java.util.Map;
 
-	public void send(String content) {
-		//TODO
-	}
+public interface RouteResponse {
 
-//   public void render(String path, ErrorHandler ErrorHandler) {
-//		//TODO
-//	}
+	public void send(String content);
+	public void redirect(String path);
+	public void render(String view, Map context);
+
 }

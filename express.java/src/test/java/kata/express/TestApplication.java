@@ -14,7 +14,7 @@ public class TestApplication {
 	public void setup() {
 		app = express();
 	}
-
+/*
 	@Test 
 	public void shouldAddRoute() {
 		app.get   ("/world", (req, res) -> res.send("get world"));
