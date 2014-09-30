@@ -1,7 +1,5 @@
 package kata.express;
 
-import kata.express.Express.HTTPMethod;
-
 public class Route {
 		
 	public final String path;

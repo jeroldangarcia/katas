@@ -1,11 +1,5 @@
 package kata.express;
 
-import static kata.express.Express.HTTPMethod.*;
-
-import javax.xml.ws.Response;
-
-import kata.express.Express.HTTPMethod;
-
 public class Application {
 
 	public Routes routes = new Routes();

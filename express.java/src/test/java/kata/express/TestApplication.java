@@ -14,7 +14,7 @@ public class TestApplication {
 	public void setup() {
 		app = express();
 	}
-/*
+
 	@Test 
 	public void shouldAddRoute() {
 		app.get   ("/world", (req, res) -> res.send("get world"));
@@ -26,7 +26,8 @@ public class TestApplication {
 
 	@Test(expected=IllegalArgumentException.class) 
 	public void shouldNotProcessInvalidRequest() {
-		app.process(GET, new RouteRequest("/invalid"));
+		app.process(GET, new RouteRequest("/invalid"), new RouteResponse() {
+        });
 	}
 
 	@Test 
@@ -36,7 +37,7 @@ public class TestApplication {
 		//TODO: response output assertions
 	}
 
-/*
+    /*
 	@Test public void should() {
 
 		app.get("/login", (req, res) -> {
@@ -57,6 +58,6 @@ public class TestApplication {
 			(req) -> authenticated(req),
 			(req, res) -> res.send("hi "+req.param("userID"))
 		);
-	}
-*/
+	}    */
+
 }

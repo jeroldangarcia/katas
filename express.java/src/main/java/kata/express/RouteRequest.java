@@ -1,10 +1,9 @@
 package kata.express;
 
-public class RouteRequest {
+public interface RouteRequest {
 
-	public final String path;
+    String param(String name);
 
-	public RouteRequest(final String path) {
-		this.path = path;
-	}
+    String header(String field);
+
 }

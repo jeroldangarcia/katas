@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class ViewBean {
 
-	private Map<String, String> params = new HashMap<>();
+	private Map<String, String> params = new HashMap();
 
 	public ViewBean() {
 	}
